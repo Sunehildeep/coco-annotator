@@ -20,7 +20,7 @@ class ImageModel(DynamicDocument):
 
     # -- Contants
     THUMBNAIL_DIRECTORY = '.thumbnail'
-    PATTERN = (".gif", ".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff", ".GIF", ".PNG", ".JPG", ".JPEG", ".BMP", ".TIF", ".TIFF")
+    PATTERN = (".webp", ".WEBP", ".gif", ".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff", ".GIF", ".PNG", ".JPG", ".JPEG", ".BMP", ".TIF", ".TIFF")
 
     # Set maximum thumbnail size (h x w) to use on dataset page
     MAX_THUMBNAIL_DIM = (1024, 1024)
